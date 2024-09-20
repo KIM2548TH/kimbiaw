@@ -31,4 +31,4 @@ BaseCourseForm = model_form(
 )
 
 class CourseForm(BaseCourseForm):
-    status = fields.SelectField("Course_Status", choices=models.course.COURSE_STATUS)
+    status = fields.SelectField("Course_Status", choices=models.courses.COURSE_STATUS)

@@ -1,7 +1,7 @@
 import mongoengine as me
 from flask_mongoengine import MongoEngine
-
-
+from .users import User 
+from .courses import Course
 __all__ = []
 
 

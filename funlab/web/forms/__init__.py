@@ -1,5 +1,5 @@
 from .accounts import LoginForm
-from .course import CourseForm
+from .courses import CourseForm
 
 __all__ = [
     'loginForm',
